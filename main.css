@@ -22,6 +22,7 @@ body {
 }
 .btn-wrapper {
   display: flex;
+  width: 100%;
 }
 .common-btn {
   width: 120px;
@@ -34,14 +35,16 @@ body {
 }
 .upper {
   background-color: rgb(9, 209, 142);
+  width: 50%;
 }
 .side {
   background-color: rgba(71, 73, 75, 0.5);
+  width: 50%;
 }
 p {
-    color: white;
-    text-align: center;
-    margin: 10px 0;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
 }
 .subcontainer input {
   width: 100%;
@@ -65,9 +68,7 @@ p {
   .subcontainer input {
     padding: 8px;
   }
-  .common-btn {
-    width: 50%;
-  }
+
   .get {
     width: 200px;
   }
