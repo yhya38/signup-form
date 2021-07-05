@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+.maincontainer {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subcontainer {
+  background-color: black;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: 0 10px;
+  border: none;
+}
+.btn-wrapper {
+  display: flex;
+}
+.common-btn {
+  width: 120px;
+  padding: 8px;
+  border: none;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.upper {
+  background-color: rgb(9, 209, 142);
+}
+.side {
+  background-color: rgba(71, 73, 75, 0.5);
+}
+p {
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+}
+.subcontainer input {
+  width: 100%;
+  padding: 6px;
+  background-color: #131212;
+  color: rgb(129, 128, 128);
+  border: 1px solid rgb(129, 128, 128);
+  margin: 10px 0;
+}
+.get {
+  background-color: rgb(16, 216, 133);
+  margin-top: 10px;
+  width: 150px;
+}
+
+@media screen and (min-width: 760px) {
+  .subcontainer {
+    max-width: 600px;
+    padding: 40px;
+  }
+  .subcontainer input {
+    padding: 8px;
+  }
+  .common-btn {
+    width: 50%;
+  }
+  .get {
+    width: 200px;
+  }
+  .btn-wrapper {
+    width: 100%;
+  }
+  .name-wrapper {
+    display: flex;
+  }
+}
